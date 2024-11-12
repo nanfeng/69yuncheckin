@@ -240,8 +240,8 @@ if __name__ == "__main__":
     # config = read_config(config_file_path)
     config = {
         "domain": "https://69yun69.com",
-        "BotToken": "电报机器人的BotToken",
-        "ChatID": "你电报账号的ChatID",
+        "BotToken": "",
+        "ChatID": "",
         "accounts": [
             {
                 "user": "531598970@qq.com",
