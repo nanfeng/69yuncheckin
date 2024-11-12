@@ -66,6 +66,7 @@ def fetch_and_extract_info(domain,headers):
 def read_config(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
+            print(f)
             return json.load(f)
     except FileNotFoundError:
         raise FileNotFoundError(f"配置文件 {file_path} 未找到，请检查配置文件是否存在。")
