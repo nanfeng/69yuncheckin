@@ -237,18 +237,18 @@ if __name__ == "__main__":
     # write_config_from_env()
 
     # 读取配置
-    # config = read_config(config_file_path)
-    config = {
-        "domain": "https://69yun69.com",
-        "BotToken": "",
-        "ChatID": "",
-        "accounts": [
-            {
-                "user": "531598970@qq.com",
-                "pass": "531598970@qq.com12345"
-            }
-        ]
-    }
+    config = read_config(config_file_path)
+    # config = {
+    #     "domain": "https://69yun69.com",
+    #     "BotToken": "7740554425:AAFflNq-8bUp9OumY6o6Gux7iVa87AOT0io",
+    #     "ChatID": "7540901888",
+    #     "accounts": [
+    #         {
+    #             "user": "531598970@qq.com",
+    #             "pass": "531598970@qq.com12345"
+    #         }
+    #     ]
+    # }
 
     # 读取全局配置
     domain = config['domain']
